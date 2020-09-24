@@ -1,9 +1,10 @@
 .joinOuterContainer {
-  border: 1px solid black;
+  border: 1px solid var(--athens-gray);
+  border-radius: 15px;
   display: flex;
   justify-content: center;
-  height: 300px;
-  width: 200px;
+  height: 500px;
+  width: 450px;
   margin: 0 auto;
   align-items: center;
   margin-top: 100px;
@@ -11,5 +12,25 @@
 }
 
 input {
-    margin: 10px;
+  margin: 100px 0 0 0;
+  background-color: white;
+  height: 30px;
+  width: 300px;
+}
+button {
+  font-family: var(--heading);
+  text-transform: uppercase;
+  background-color: var(--green-pea);
+  border: 1px solid var(--athens-gray);
+  border-radius: 0.75em;
+  width: 100px;
+  height: 35px;
+  margin: 50px;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 5px 8px rgba(32, 106, 93, 0.5);
+}
+
+button:hover {
+  transform: translate3d(0, 0.5em, -1em);
 }
