@@ -1,0 +1,22 @@
+.chatBox {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 50%;
+  height: 450px;
+  margin-top: 10%;
+  margin: 0 auto;
+
+
+}
+
+.infoBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 500px 100px;
+}
+
+img {
+  filter: brightness(800%);
+  
+}

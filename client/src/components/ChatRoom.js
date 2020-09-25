@@ -1,18 +1,21 @@
 import React from "react";
-
+import exit from "./x-square.svg";
 import "./ChatRoom.css";
 
-const ChatRoom = ({room}) => {
+const ChatRoom = ({ room }) => {
   return (
-    <div>
+    <div className="infoBar">
+      <h3 className="glitch">
+        <span aria-hidden="true">{room}</span>
+        <span aria-hidden="true">{room}</span>
+        <span aria-hidden="true">{room}</span>
+      </h3>
+
       <div>
-        <img alt="" />
-        <h3>{room}</h3>
+    
       </div>
       <div>
-        <a href="/">
-          exit
-        </a>
+        <a href="/"><img src={exit} alt="" /></a>
       </div>
     </div>
   );

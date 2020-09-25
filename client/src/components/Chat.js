@@ -50,16 +50,18 @@ const Chat = ({ location }) => {
   };
   console.log(message, messages);
   return (
-    <div>
+    <div className="chatContainer">
       <div>
         <ChatRoom room={room} />
+        <div className="chatBox">
         <Messages messages={messages} name={name} />
+      </div>
+      </div>
         <Input
           message={message}
           setMessage={setMessage}
           sendMessage={sendMessage}
         />
-      </div>
     </div>
   );
 };

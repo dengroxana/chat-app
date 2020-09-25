@@ -6,13 +6,11 @@
   --cello: #1f4068;
   --shark: #1b1c25;
   --heading: 'Rubik', sans-serif;
-  --links: "Open Sans Condensed", sans-serif;
+  --message: "Open Sans Condensed", sans-serif;
   --text: "PT Sans Narrow", sans-serif;
-}
-* {
   background-color: var(--shark);
- 
 }
+
 .glitch {
   font-family: var(--heading);
   color: var(--athens-gray);
